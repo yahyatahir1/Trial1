@@ -1,7 +1,7 @@
 import Component from '@ember/component';
 
 export default Component.extend({
-  //delete function
+  // Delete function
   actions: {
     deleteContact(contact)
     {
