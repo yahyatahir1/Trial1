@@ -1,0 +1,22 @@
+<!-- Adding a Contact Form -->
+<form>
+	<div class="form-group">
+		<label>First Name</label>
+		{{input type="text" class="form-control" value=firstName placeholder="Add First Name..."}}
+	</div>
+  <div class="form-group">
+		<label>Surname</label>
+		{{input type="text" class="form-control" value=lastName placeholder="Add Surname..."}}
+	</div>
+  <div class="form-group">
+    <label>Phone Number</label>
+    {{input type="text" class="form-control" value=phoneNumber placeholder="Add Phone Number..."}}
+  </div>
+  <div class="form-group">
+    <label>Mobile Number</label>
+    {{input type="text" class="form-control" value=mobileNumber placeholder="Add Mobile Number..."}}
+  </div>
+	<button {{action 'addContact'}} class="btn btn-primary">
+    Add Contact
+  </button>
+</form>
